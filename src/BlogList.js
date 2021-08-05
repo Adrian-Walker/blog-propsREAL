@@ -4,7 +4,7 @@ import BlogPost from "./BlogPost"
 import mapArray from "./mapArray"
 
 function BlogList() {
-    const blogs = mapArray.map()
+    const blogs = mapArray.map(post => { })
     return (
         <div>
             <BlogPost />
