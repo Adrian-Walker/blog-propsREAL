@@ -7,9 +7,9 @@ function BlogPost(props) {
 
     return (
         <div>
-            <h1>{props.BlogList}</h1>
-            <h3>{ }</h3>
-            <p>{ }</p>
+            <h1>1</h1>
+            <h3>2</h3>
+            <p>p</p>
         </div>
     )
 }

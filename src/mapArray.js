@@ -23,3 +23,5 @@ const array =
             date: "July 8, 2019"
         }
     ]
+
+export default mapArray
