@@ -1,4 +1,4 @@
-import React from ("react")
+import React from "react"
 import BlogList from "./BlogList"
 
 function BlogPost(props) {
@@ -7,9 +7,9 @@ function BlogPost(props) {
 
     return (
         <div>
-            <h1>{}</h1>
-            <h3>{}</h3>
-            <p>3</p>
+            <h1>{props.BlogList}</h1>
+            <h3>{ }</h3>
+            <p>{ }</p>
         </div>
     )
 }
