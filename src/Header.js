@@ -4,8 +4,9 @@ import Navbar from "./Navbar"
 
 function Header() {
     return (
+        
         <div>
-            <Navbar />
+            <h1>Clean Blog</h1>
         </div>
     )
 }
