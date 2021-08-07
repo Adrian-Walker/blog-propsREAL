@@ -4,7 +4,7 @@ import BlogPost from "./BlogPost"
 import mapArray from "./mapArray"
 
 function BlogList() {
-    const blogs = mapArray.map(post => <BlogPost title={post.title} subtitle={post.subtitle} author={post.author} date={post.date} />)
+    const blogs = mapArray.map(post => <BlogPost title={post.title} subtitle={post.subTitle} author={post.author} date={post.date} />)
     return (
         <div>
             {blogs}
