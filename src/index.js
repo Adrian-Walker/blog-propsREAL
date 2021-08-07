@@ -5,5 +5,7 @@ import Header from "./Header"
 
 import BlogList from "./BlogList"
 
-ReactDOM.render(<Header />, document.getElementById('root'))
+
+// ReactDOM.render(<Header />, document.getElementById('root'))
 ReactDOM.render(<BlogList />, document.getElementById('root'))
+// ReactDOM.render(<Navbar />, document.getElementById('root'))
