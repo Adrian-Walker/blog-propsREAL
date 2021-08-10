@@ -6,7 +6,7 @@ import mapArray from "./mapArray"
 import Navbar from "./Navbar"
 
 function BlogList() {
-    const blogs = mapArray.map(post => <BlogPost title={post.title} subtitle={post.subTitle} author={post.author} date={post.date} />)
+    const blogs = mapArray.map(post => <BlogPost key={post.key} title={post.title} subtitle={post.subTitle} author={post.author} date={post.date} />)
     return (
         <div>
             <Navbar />
